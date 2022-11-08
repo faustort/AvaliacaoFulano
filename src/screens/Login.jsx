@@ -14,7 +14,7 @@ export const Login = () => {
         onChangeText={(emailDigitado) => setEmail(emailDigitado)}
       />
       <TextInput
-        label="Senha"
+        label="Senha Do Login"
         mode="outlined"
         value={password}
         onChangeText={(valor) => setPassword(valor)}
